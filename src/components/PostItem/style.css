@@ -1,5 +1,6 @@
 .postTop {
   display: flex;
+  flex-wrap: wrap;
   background: #fff;
   color: #3e3e3e;
   margin-top: 20px;
@@ -9,19 +10,29 @@
 }
 
 .avatar {
-  width: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .subtitle {
+  width: 500px;
   display: flex;
   flex-direction: column;
   margin-left: 10px;
-  line-height: 16px;
+  line-height: 20px;
   color: #9a9a9a;
   font-size: 12px;
+  margin-right: 100px;
 }
 .subtitle span:first-child {
   color: #000;
   font-size: 16px;
 }
+
+.firstCommit {
+  margin-top: 10px;
+}
+/*  */
